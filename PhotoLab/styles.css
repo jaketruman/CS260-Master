@@ -1,0 +1,50 @@
+.centery{
+  
+    text-align: center;
+    font-family: times new roman;
+    font-size: large;
+}
+.news{
+  
+    text-align: center;
+    font-family: times new roman;
+    font-size: large;
+}
+
+.paraly{
+  
+    text-transform: uppercase;
+    font-size: larger;
+    text-align: center !important;
+    border: 3px solid green;
+    margin-left: auto;
+    width: 50%;
+    padding: 10px;
+}
+.headly{
+    text-align: center;
+}
+img {
+  width: 100%;
+}
+.portfolio {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.image img {
+  width: 100%;
+}
+.masonry { /* Masonry container */
+  column-count: 3;
+  column-gap: .5em;
+}
+
+.item { /* Masonry bricks or child elements */
+  background-color: #eee;
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
